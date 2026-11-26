@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Hangman",
+  "description": "Guess the hidden word letter by letter before the drawing is complete, with a category as your clue. Classic Hangman, free in your browser.",
+  "about": "Hangman is the classic word-guessing game from the school notebook, redrawn with a clean paper look. A secret word is shown as a row of blanks, along with its category: animals, food, countries, sports, science, home, jobs or nature. Pick letters one at a time; every correct letter appears in all the right places, while every wrong one adds a stroke to the drawing.\n\nSolve the word before the figure is complete to keep your winning streak going. Three difficulty levels change how many mistakes you can afford and how long the words are, and Easy reveals one letter to get you started.\n\nWith more than a hundred words to discover, it is a quick and satisfying way to test your vocabulary and your spelling.",
+  "howToPlay": "Choose letters with the on-screen keyboard or your physical keyboard. Correct letters fill in the blanks; wrong letters cost one guess and add to the drawing. Find the whole word before you run out of guesses, then move on to the next word to build your streak.",
+  "controls": [
+    {
+      "input": "Keyboard A – Z",
+      "action": "Guess a letter"
+    },
+    {
+      "input": "Tap / Click",
+      "action": "Use the on-screen keyboard"
+    },
+    {
+      "input": "Enter",
+      "action": "Next word after a win"
+    },
+    {
+      "input": "Esc",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Start with the vowels A, E, I and O: almost every word has at least one.",
+    "Then try common consonants such as R, S, T, N and L.",
+    "Use the category to think of words with the right length.",
+    "Once a few letters are showing, guess the most likely word instead of single letters."
+  ],
+  "faq": [
+    {
+      "question": "Is Hangman free to play?",
+      "answer": "Yes. Hangman is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. The large on-screen keyboard is made for touch, and the layout adapts to portrait and landscape."
+    },
+    {
+      "question": "How many mistakes can I make?",
+      "answer": "Eight on Easy, six on Normal and five on Hard. The drawing grows with every wrong letter."
+    }
+  ],
+  "category": "Word",
+  "tags": [
+    "hangman",
+    "word game",
+    "spelling",
+    "classic",
+    "vocabulary"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
